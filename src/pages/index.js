@@ -184,7 +184,7 @@ const IndexPage = () => (
       >
         <div className="w-100"> 
           <h2 className="mb-5">Contact Me</h2> 
-          <p>Send me an email with any inquireies to apjmcguigan (at) gmail (dot) com</p>
+          <p>Send me an email with any inquiries to apjmcguigan (at) gmail (dot) com</p>
         </div>
       </section>
     </div>
