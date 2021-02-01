@@ -73,10 +73,12 @@ const IndexPage = () => (
               <h3 className="mb-0">Web Developer</h3>
               <div className="subheading mb-3">Veterans Affairs Canada</div>
               <p>
-                Working with the Canadian Digital Service the team delivered a 
-                web app that allows anyone to easily see which benefits they qualify for from Veterans Affairs Canada.
-                I worked primarily as a front end developer on the team. Implementing design changes and correcting bugs.
-                Usability and accessibility were very important to this app. Not to mention a sleek design. 
+                Working with the Canadian Digital Service, my team delivered a 
+                web app that allows veterans to easily discover the benefits they qualify for from 
+                Veterans Affairs Canada.
+                I worked primarily as a front end developer on this team, tasked with implementing design changes and 
+                correcting functional errors.
+                The success of this app depended on usability and accessibility, while fronted with a sleek design. 
               </p>
             </div>
             <div className="resume-date text-md-right">
