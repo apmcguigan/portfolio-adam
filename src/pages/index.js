@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import ReCAPTCHA from "react-google-recaptcha"
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -189,7 +188,6 @@ const IndexPage = () => (
             name="JSX Form"
             method="POST"
             data-netlify="true"
-            data-netlify-recaptcha="true"
           >
             <input type="hidden" name="form-name" value="JSX Form" />
             <label>Your Email:</label>
@@ -198,7 +196,6 @@ const IndexPage = () => (
             <label>Message:</label>
             <textarea name="message" />
             <br />
-            <ReCAPTCHA sitekey="{process.env.GATSBY_RECAPTCHA_KEY}" />
             <button type="submit">Send</button>
           </form>
         </div>
