@@ -5,6 +5,8 @@ import Layout from '../components/Layout';
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
+import avatar from '../assets/images/profilePic.jpeg';
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -14,8 +16,18 @@ const IndexPage = () => (
         id="about"
       >
         <div className="w-100">
+        <span className="d-lg-none">
+            <img
+              width="65%"
+              height="auto"
+              className="img-fluid img-profile rounded-circle mx-auto mb-2"
+              src={avatar}
+              alt=""
+            />
+          </span>
           <h1 className="mb-0">
             {config.firstName}
+            <br className="mobile-break"/>
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
