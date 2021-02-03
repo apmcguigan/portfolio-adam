@@ -190,12 +190,12 @@ const IndexPage = () => (
             data-netlify="true"
           >
             <input type="hidden" name="form-name" value="JSX Form" />
-            <label>Your Email:</label>
+            <label> Name</label>
+            <input type="name" name="name"></input>
+            <label> Email</label>
             <input type="email" name="email" />
-            <br />
             <label>Message:</label>
             <textarea name="message" />
-            <br />
             <button type="submit">Send</button>
           </form>
         </div>
