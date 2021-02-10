@@ -105,3 +105,7 @@ label {
     }
   }
 }
+
+@media (min-width: 992px)  {
+  .mobile-break { display: none; }
+}
