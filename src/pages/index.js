@@ -179,7 +179,7 @@ const IndexPage = () => (
       <hr className="m-0" />
 
       <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        className="resume-section p-3 p-lg-5"
         id="contact"
       >
         <div className="w-100"> 
@@ -189,13 +189,13 @@ const IndexPage = () => (
             method="POST"
             data-netlify="true"
           >
-            <input type="hidden" name="form-name" value="JSX Form" />
+            <input type="hidden" name="form-name" value="JSX Form"/>
             <label> Name</label>
-            <input type="name" name="name"></input>
+            <input type="name" name="name" className="w-50"></input>
             <label> Email</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" className="w-50"/>
             <label>Message:</label>
-            <textarea name="message" />
+            <textarea name="message" className="w-50"/>
             <button type="submit">Send</button>
           </form>
         </div>
